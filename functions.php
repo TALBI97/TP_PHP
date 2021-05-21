@@ -27,7 +27,7 @@ function enregistrerFichierEnvoye(array $infoFichier): string
     move_uploaded_file($infoFichier["tmp_name"], $dossierStockage . $nomDuFichier);
     // return '../uploads/' . $nomDuFichier;
     // on renvoi le lien vers le fichier
-    return '/produit-crud/produit-crud/uploads/' . $nomDuFichier;
+    return '/TP_PHP/uploads/' . $nomDuFichier;
 }
 function onVaRediriger(string $path)
 {

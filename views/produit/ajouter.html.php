@@ -23,7 +23,7 @@
         }
         ?>
 
-        <form method="POST" action="/produit-crud/produit-crud/router.php/ajouter-produit" enctype="multipart/form-data" class="p-5">
+        <form method="POST" action="/TP_PHP/router.php/ajouter-produit" enctype="multipart/form-data" class="p-5">
             <div class="form-group">
                 <label>Nom du produit</label>
                 <input type="text" name="product-name" class="form-control">

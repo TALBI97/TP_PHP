@@ -12,7 +12,7 @@
     <h1 class="display-4 text-center">Catalogue des produits</h1>
     <div class="text-center m-5">
         <!-- <a href="/router.php/ajouter-produit" class="btn btn-primary">Ajouter un nouveau produit</a>  -->
-        <a href="/produit-crud/produit-crud/router.php/ajouter-produit" class="btn btn-primary">Ajouter un nouveau produit</a> 
+        <a href="/TP_PHP/router.php/ajouter-produit" class="btn btn-primary">Ajouter un nouveau produit</a> 
     </div>
         <table class="table table-striped w-75 mx-auto">
             <tr>
