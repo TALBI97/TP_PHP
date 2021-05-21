@@ -8,7 +8,7 @@
 
 <body>
     <div class="container">
-        <h1 class="display-4 text-center">Gestion des produits</h1>
+        <h1 class="display-4 text-center">Modifier des produits</h1>
 
         <?php
         if ($messageErreur !== null)
