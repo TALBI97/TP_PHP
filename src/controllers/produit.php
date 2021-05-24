@@ -54,18 +54,18 @@ function convertirPayloadEnObjet(array $data, array $file)
     return $produit;
 }
 
-function modifier(array $data, array $file)
-{
-    $fichier = enregistrerFichierEnvoye($file["product-photo-file"]);
-    $produit = new Produit();
-    $produit->nom = $data['product-name'];
-    $produit->prix = $data['product-price'];
-    $produit->image = $fichier;
-    $produit->type = $data['product-type'];
-    $produit->description = $data['product-description'];
+// function modifier(array $data, array $file)
+// {
+//     $fichier = enregistrerFichierEnvoye($file["product-photo-file"]);
+//     $produit = new Produit();
+//     $produit->nom = $data['product-name'];
+//     $produit->prix = $data['product-price'];
+//     $produit->image = $fichier;
+//     $produit->type = $data['product-type'];
+//     $produit->description = $data['product-description'];
 
-    return $produit;
-}
+//     return $produit;
+// }
 
 // ACTIONS ------------------------------------------------
 
